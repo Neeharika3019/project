@@ -3,45 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant Menu</title>
+    <title>Basilico</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <!-- Header -->
+    <!-- Navigation Bar -->
     <header>
-        <img src="assets/logo.png" alt="Restaurant Logo">
+        <div class="logo">
+            <img src="assets/Basilico Logo.png" alt="Basilico Logo">
+        </div>
         <nav>
             <a href="#">Home</a>
+            <a href="#">About</a>
             <a href="#">Menu</a>
-            <a href="#">Contact</a>
+            <a href="#">Reservation</a>
+            <a href="#">Order Online</a>
+            <a href="#">Registration</a>
+            <a href="#">Login</a>
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <h1>Delicious Meals</h1>
-        <p>Inspired by your Figma design</p>
-    </section>
+    <h2 class="title">Basilico’s Authentic Spaghetti</h2>
 
-    <!-- Menu Section -->
-    <section class="menu">
-        <h2>Our Menu</h2>
+    <!-- Spaghetti Section -->
+    <section class="menu-container">
 
-        <div class="menu-grid">
-            <div class="card">
-                <img src="assets/dish1.jpg" alt="">
-                <h3>Dish Name</h3>
-                <p>$12.99</p>
-            </div>
-
-            <div class="card">
-                <img src="assets/dish2.jpg" alt="">
-                <h3>Dish Name</h3>
-                <p>$10.99</p>
-            </div>
+        <!-- Item 1 -->
+        <div class="menu-card">
+            <h3 class="item-title red">Spaghetti al Limone</h3>
+            <img src="assets/spaghetti1.jpg" alt="Spaghetti al Limone">
+            <p>Delicate spaghetti tossed in a light cream sauce, finished with fresh zest for a bright and refreshing flavor.</p>
+            <div class="price">Price: Rs 250</div>
+            <button>Add to cart</button>
         </div>
+
+        <!-- Item 2 -->
+        <div class="menu-card">
+            <h3 class="item-title red">Spaghetti alla Carbonara</h3>
+            <img src="assets/spaghetti2.jpg" alt="Carbonara">
+            <p>Roman spaghetti with eggs, Pecorino Romano, pancetta, and black pepper.</p>
+            <div class="price">Price: Rs 300</div>
+            <button>Add to cart</button>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="menu-card">
+            <h3 class="item-title red">Spaghetti al Pomodoro</h3>
+            <img src="assets/spaghetti3.jpg" alt="Pomodoro">
+            <p>A classic Italian pasta with a simple yet rich sauce of sun-ripened tomatoes, garlic, olive oil and basil.</p>
+            <div class="price">Price: Rs 225</div>
+            <button>Add to cart</button>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="menu-card">
+            <h3 class="item-title red">Spaghetti alla Bolognese</h3>
+            <img src="assets/spaghetti4.jpg" alt="Bolognese">
+            <p>Spaghetti with a rich, slow cooked beef in a tomato sauce, seasoned with fresh herbs.</p>
+            <div class="price">Price: Rs 275</div>
+            <button>Add to cart</button>
+        </div>
+
     </section>
 
 </body>
