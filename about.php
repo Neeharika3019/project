@@ -177,13 +177,16 @@
     <!-- Main Content -->
     <div class="main">
         <div class="green">
-            <h3>Welcome to Basilico, where the flavors of Italy come alive.</h3>
-            <p>We are passionate about serving authentic Italian spaghetti.</p>
+            <p>Welcome to Basilico, where the flavors
+                     of Italy come alive.</p>
+            <p>We are passionate about serving 
+                authentic Italian spaghetti.</p>
             <img src="images/spag1.jpeg" alt="Spaghetti">
             <p>
-                Basilico was founded with the dream of bringing the rich flavors of Italy 
-                to our community. Our chefs carefully select the finest ingredients 
-                to create dishes that carry the warmth and passion of Italian cooking.
+                Basilico was founded with the 
+                  dream of bringing the rich 
+                     flavors of Italy to our 
+                          community. 
             </p>
         </div>
         <div class="white">
@@ -191,13 +194,16 @@
         </div>
         <div class="red">
             <div class="content">
-                <h3>Basilico brings the taste of Italy to your table.</h3>
-                <p>We take pride in crafting dishes that highlight the essence of Italian cuisine.</p>
+                <p>Basilico brings the taste of 
+                   <p> Italy to your table.</p>
+                <p>We take pride in crafting dishes 
+                    that highlight the essence of Italian cuisine.</p>
                 <img src="images/spag2.jpeg" alt="Spaghetti Dish">
                 <p>
-                    Our restaurant celebrates the history and passion of Italian cuisine, 
-                    especially the different flavors of spaghetti. Each plate tells a story, 
-                    combining tradition and creativity to give you an unforgettable dining experience.
+                    Our restaurant celebrates the 
+                    history and passion of Italian 
+                    cuisine, especially the 
+                    different flavors of spaghetti.
                 </p>
             </div>
         </div>
@@ -230,4 +236,3 @@
 
 </body>
 </html>
-
