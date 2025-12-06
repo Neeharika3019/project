@@ -1,0 +1,96 @@
+/* Container */
+.admin-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    text-align: center;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+/* Heading */
+.admin-container h1 {
+    color: #C62828;
+    margin-bottom: 30px;
+}
+
+/* Reservation table */
+.reservation-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.reservation-table th, .reservation-table td {
+    border: 1px solid #bbb;
+    padding: 12px;
+    text-align: center;
+}
+
+.reservation-table th {
+    background-color: #C62828;
+    color: white;
+    font-size: 16px;
+}
+
+.reservation-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Buttons */
+.edit-btn, .delete-btn {
+    padding: 6px 12px;
+    margin: 0 2px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.edit-btn {
+    background-color: #0C5406;
+}
+
+.edit-btn:hover {
+    background-color: #0A3F05;
+}
+
+.delete-btn {
+    background-color: #C62828;
+}
+
+.delete-btn:hover {
+    background-color: #A71D1D;
+}
+
+/* Logout button */
+.logout-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    margin-top: 20px;
+    background-color: #0C5406;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.logout-btn:hover {
+    background-color: #0A3F05;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .reservation-table, .reservation-table th, .reservation-table td {
+        font-size: 14px;
+    }
+    .admin-container {
+        padding: 20px;
+    }
+}
+

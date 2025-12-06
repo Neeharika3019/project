@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    font-family: serif;
+    background: #f9f9f9;
+}
+
+/* HEADER */
+header {
+     background-color: #3DA04F;
+
+   display: flex;
+
+   justify-content: flex-start;
+
+   align-items: center;
+
+   padding: 15px 40px;
+
+   gap: 120px;
+
+   height: 100px;
+
+}
+
+
+
+header .logo img {
+
+   height: 100px;
+}
+
+nav a {
+    margin: 0 30px;
+    margin-left: 30px;
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+/* MAIN SECTION */
+.reservation-section {
+    text-align: center;
+    padding: 40px;
+}
+
+.reservation-section h1 {
+    font-size: 45px;
+    color: #1b3a22;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #333;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.reservation-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.reservation-form {
+    width: 320px;
+    text-align: left;
+}
+
+.reservation-form label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+.reservation-form input,
+.reservation-form select {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.reserve-btn {
+    padding: 12px 40px;   /* button size */
+    background: #1b6b2a;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 20px auto 0;  /* centers the button */
+    display: block;       /* required for centering */
+}
+
+
+.contact-info {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.reservation-image img {
+    width: 400px;
+    height: auto;
+    border-radius: 6px;
+    border: 3px solid #2b7a34;
+}
+
+.footer {
+    background-color: #F1392C;
+    color: black;
+    padding: 40px 20px;
+    display: flex;              /* make the footer a flex container */
+    justify-content: flex-start; /* logo on left, columns next */
+    align-items: flex-start;     /* align items at the top */
+    gap: 120px;                  /* space between logo and columns */
+    flex-wrap: wrap;            /* wrap on smaller screens */
+}
+
+.footer-logo img {
+    width: 150px;
+    height: 300px;
+}
+
+.footer-columns {
+    display: flex;
+    flex-direction: row;        /* horizontal columns */
+    margin-top: -20px;  /* move columns up by 10px */
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 200px;                  /* space between each column */
+}
+
+.footer-column {
+    min-width: 200px;
+    text-align: center; 
+}
+
+.footer-column h4 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.footer-column p {
+    font-size: 20px;
+    margin: 8px 0;         /* vertical space between paragraphs */
+    line-height: 1.6;      /* spacing between lines inside a paragraph */
+}
