@@ -1,0 +1,42 @@
+/*---------------- Header---------------------- */
+
+header {
+    background-color: #3DA04F;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px 40px;
+    gap: 120px;
+    height: 100px;
+}
+
+header .logo img {
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 30px; /* consistent spacing */
+}
+
+nav a {
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.welcome-user {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-right: 15px;
+}
+
+.logout-link {
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+}
