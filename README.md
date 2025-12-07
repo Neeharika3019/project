@@ -12,14 +12,14 @@ Folder Structure in This Branch
 1. /homepage
 Contains all code and styling specifically for the Home Page.
 
-3. /admin
+2. /admin
 Included because some homepage content (like specials or promotional banners or testimonials) may be controlled or updated by the admin dashboard.
 
-4. /order
+3. /order
 Your homepage links to the Order Online module.
 This folder is included so the navigation can be tested directly from the Home Page.
 
-5. /reservation
+4. /reservation
 Your homepage includes a Reserve a Table CTA button.
 This folder allows seamless testing of the reservation flow.
 
