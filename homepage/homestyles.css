@@ -1,0 +1,256 @@
+/* ---------------- BASIC RESET ---------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  color: #222;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* ---------------- HERO ---------------- */
+.hero {
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+}
+
+.hero__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500;600&display=swap');
+.hero__title {
+  font-size: 50px;
+  font-weight: medium;
+  color: #0C5406;
+  font-family: 'IBM Plex Serif', serif;
+}
+
+.hero__subtitle {
+  font-size: 22px;
+  margin: 10px 0;
+  color: #F1392C;
+}
+
+.hero__copy {
+  font-size: 17px;
+  margin: 15px 0 25px;
+  font-family: 'IBM Plex Serif', serif;
+  max-width: 400px;
+  color: #333333;
+}
+
+.hero__media img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* BUTTONS */
+.hero__text .btn {
+  align-self: center;
+}
+
+.btn {
+  padding: 12px 25px;
+  text-decoration: none;
+  color: #0C5406;
+  border-radius: 6px;
+  
+}
+
+.btn.primary {
+  background: #E5D00D;
+    display: inline-block;
+  margin: 20px auto 0;
+}
+
+/* ---------------- SPECIALS ---------------- */
+.specials {
+  padding: 60px 0;
+  text-align: center;
+  background-color: #F1392C;
+}
+
+.section-title {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 60px;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 0;
+}
+
+
+.card {
+  background: #6B7B6E;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 380px;     /* Make cards thinner */
+  width: 100%;
+  margin: 0 auto;        /* Center each card inside the grid */
+}
+
+.card_media img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.card_title {
+  font-size: 18px;
+  margin: 12px 0;
+}
+
+.price {
+  font-size: 18px;
+  color: #FFD600;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* ---------------- TESTIMONIALS ---------------- */
+.testimonials {
+  padding: 60px 0;
+  background: #33A14B;
+}
+
+.section-title {
+    align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.testimonial {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.stars .star {
+  color: #ccc;
+}
+
+.stars .star--on {
+  color: gold;
+}
+
+.testimonial__text {
+  margin-top: 12px;
+  font-style: italic;
+}
+
+/* ---------------- ABOUT ---------------- */
+.about {
+  padding: 60px 0;
+}
+
+.about__text h2 {
+    color: #0D5507;
+    font-size: 40px;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.about__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.about__img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.about__img--overlay {
+  margin-top: 20px;
+}
+
+.about__gallery {
+  position: relative;
+  width: 100%;
+}
+
+.about__img--base {
+  width: 50%;        /* Reduce size of FIRST image only */
+  border-radius: 10px;
+}
+
+.about__img--overlay {
+  position: absolute;
+  width: 50%;        /* Keep same size */
+  bottom: -40px;
+  right: 0;
+  border-radius: 10px;
+}
+
+/*Footer*/
+.footer {
+    background-color: #F1392C;
+    color: black;
+    padding: 40px 20px;
+    display: flex;              /* make the footer a flex container */
+    justify-content: flex-start; /* logo on left, columns next */
+    align-items: flex-start;     /* align items at the top */
+    gap: 120px;                  /* space between logo and columns */
+    flex-wrap: wrap;            /* wrap on smaller screens */
+}
+
+.footer-logo img {
+    width: 150px;
+    height: 300px;
+}
+
+.footer-columns {
+    display: flex;
+    flex-direction: row;        /* horizontal columns */
+    margin-top: -20px;  /* move columns up by 10px */
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 200px;                  /* space between each column */
+}
+
+.footer-column {
+    min-width: 200px;
+    text-align: center; 
+}
+
+.footer-column h4 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.footer-column p {
+    font-size: 20px;
+    margin: 8px 0;         /* vertical space between paragraphs */
+    line-height: 1.6;      /* spacing between lines inside a paragraph */
+}
+
+
+
+
