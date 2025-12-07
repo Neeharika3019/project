@@ -12,8 +12,6 @@ Paavanne Ramthohul (2414248) – Order Online Page
 Shared Work (All Members)
 
 All team members contributed to:
-Order Online system
-Reservation system improvements
+Login and Registration system
 Styling fixes, debugging, and testing
-Project structure and GitHub repository updates
-Ensuring responsiveness and consistency across pages
+
