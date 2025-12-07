@@ -1,0 +1,130 @@
+/* Header */
+header {
+    background-color: #3DA04F;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px 40px;
+    gap: 120px;
+    height: 100px;
+}
+
+header .logo img {
+    height: 100px;
+}
+
+nav a {
+    margin: 0 30px;
+    margin-left: 30px;
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* Form Title */
+.form-title {
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/* Form container */
+.product-form {
+    margin: 50px auto 80px auto; /* 40px top, auto left/right (centered), 80px bottom */
+    max-width: 400px;
+    padding: 25px;
+    background-color: #f9f9f9;
+    border: 3px solid #000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Input and textarea styling */
+.product-form input[type="text"],
+.product-form input[type="number"],
+.product-form input[type="file"],
+.product-form textarea {
+    padding: 10px 15px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.product-form textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+/* Focus effect */
+.product-form input:focus,
+.product-form textarea:focus {
+    border-color: #3DA04F;
+}
+
+/* Submit button */
+.product-form button {
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #3DA04F;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product-form button:hover {
+    background-color: #32a03f;
+}
+
+.footer {
+    background-color: #F1392C;
+    color: black;
+    padding: 40px 20px;
+    display: flex;              /* make the footer a flex container */
+    justify-content: flex-start; /* logo on left, columns next */
+    align-items: flex-start;     /* align items at the top */
+    gap: 120px;                  /* space between logo and columns */
+    flex-wrap: wrap;            /* wrap on smaller screens */
+}
+
+.footer-logo img {
+    width: 150px;
+    height: 300px;
+}
+
+.footer-columns {
+    display: flex;
+    flex-direction: row;        /* horizontal columns */
+    margin-top: -20px;  /* move columns up by 10px */
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 200px;                  /* space between each column */
+}
+
+.footer-column {
+    min-width: 200px;
+    text-align: center; 
+}
+
+.footer-column h4 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.footer-column p {
+    font-size: 20px;
+    margin: 8px 0;         /* vertical space between paragraphs */
+    line-height: 1.6;      /* spacing between lines inside a paragraph */
+}

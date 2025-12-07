@@ -1,0 +1,163 @@
+body {
+    font-family: IBM Plex serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #3DA04F;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px 40px;
+    gap: 120px;
+    height: 100px;
+}
+
+header .logo img {
+    height: 100px;
+}
+
+nav a {
+    margin: 0 30px;
+    margin-left: 30px;
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* Title */
+.title {
+    margin-top: 60px;  /* space above the title */
+    margin-bottom: 30px; /* optional: space below */
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 30px;
+}
+
+/* Menu Grid */
+.menu-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 20px 40px;
+    gap: 50px;
+}
+
+.menu-card {
+    width: 320px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.menu-card img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover; /* ensures the image fills the square without stretching */
+    border-radius: 0;  /* square corners */
+}
+
+.menu-card p {
+    font-size: 25px;      /* increase this to make text bigger */
+    font-weight: bold;
+    line-height: 1.5;     /* improves readability */
+    color: black;         /* optional: makes text darker/softer */
+    margin-top: 15px;       /* optional: adds spacing above and below text */
+    margin-bottom: 40px;
+}
+
+.menu-card .spacer {
+    height: 30px; /* matches average spaghetti description */
+    margin: 0;
+}
+
+.item-title {
+    background-color: #ED3D3D;
+    color: BLACK;
+    padding: 8px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.price {
+    background-color: #33A14B;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: auto;
+}
+
+button {
+    background-color: #EDEA28;
+    color: #EC1C0E;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.footer {
+    background-color: #F1392C;
+    color: black;
+    padding: 40px 20px;
+    display: flex;              /* make the footer a flex container */
+    justify-content: flex-start; /* logo on left, columns next */
+    align-items: flex-start;     /* align items at the top */
+    gap: 120px;                  /* space between logo and columns */
+    flex-wrap: wrap;            /* wrap on smaller screens */
+}
+
+.footer-logo img {
+    width: 150px;
+    height: 300px;
+}
+
+.footer-columns {
+    display: flex;
+    flex-direction: row;        /* horizontal columns */
+    margin-top: -20px;  /* move columns up by 10px */
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 200px;                  /* space between each column */
+}
+
+.footer-column {
+    min-width: 200px;
+    text-align: center; 
+}
+
+.footer-column h4 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.footer-column p {
+    font-size: 20px;
+    margin: 8px 0;         /* vertical space between paragraphs */
+    line-height: 1.6;      /* spacing between lines inside a paragraph */
+}
+
+
+
+
+
+
+
+
+
+
+
